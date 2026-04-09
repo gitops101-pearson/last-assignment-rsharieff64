@@ -1,9 +1,68 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Team Website</title>
-  </head>
-  <body>
-    <h1>Welcome to our GitOps Site</h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rayan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 class="logo">Rayan Sharieff</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <img src="hero.jpg" class="hero-img">
+    <div class="hero-text">
+      <h2 class="glitch">Rayan Sharieff</h2>
+      <p>Student • Tech Enthusiast • Learning Everyday</p>
+    </div>
+  </section>
+
+  <section class="cards">
+
+    <div class="card" onclick="scrollToSection('about')">
+      <h3>About Me</h3>
+      <p>A very brief overview of who I am!</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('achievements')">
+      <h3>Achievements</h3>
+      <p>Things I have achieved so far</p>
+    </div>
+
+    <div class="card" onclick="scrollToSection('contact')">
+      <h3>Contact</h3>
+      <p>Reach out or connect with me.</p>
+    </div>
+
+  </section>
+
+  <section id="about" class="content">
+    <h2>About Me</h2>
+    <p>I'm a person who really loves to fall into rabbit holes. I'm a self taught guitarist, tech nerd, former esports pro, and I'm just overall a passionate person with many more interests I can't all list here!</p>
+  </section>
+
+  <section id="achievements" class="content">
+    <h2>Achievements</h2>
+    <p>Top 10 at the 2023 Pokemon Regional Championship in Knoxville, Tennessee VGC, Self taught guitarist, 4.0 GPA across 3 years of High School so far, 2nd Base Baseball Player for 2 years, and more to come this summer</p>
+  </section>
+
+  <section id="contact" class="content">
+    <h2>Contact</h2>
+    <p>Email: rssharieff@gmail.com</p>
+    <p2>Discord: RapidBunny65#9669 </p2>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
 </html>
